@@ -1,11 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is rails proof of concept application dealing with an Online tutorial. That allows for listing of programs and courses under each program. It also allows for having a list of teachers and list of students.
 
 Things you may want to cover:
 
 * Ruby version
+2.0
 
 * System dependencies
 
