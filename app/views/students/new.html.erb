@@ -1,3 +1,27 @@
 <% provide(:title, 'Register') %>
-<h1>Register Now</h1>
-<p>Find me in app/views/students/new.html.erb</p>
+<h1>Register</h1>
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@student) do |f| %>
+			<%= render 'shared/error_messages' %>
+      <%= f.label :first_name %>
+      <%= f.text_field :first_name %>
+
+      <%= f.label :last_name %>
+      <%= f.text_field :last_name %>
+
+
+      <%= f.label :email %>
+      <%= f.text_field :email %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+
+      <%= f.label :password_confirmation, "Confirmation" %>
+      <%= f.password_field :password_confirmation %>
+
+      <%= f.submit "Create Student Account", class: "btn btn-large btn-primary" %>
+    <% end %>
+  </div>
+</div>
