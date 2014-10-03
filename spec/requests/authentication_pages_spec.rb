@@ -45,8 +45,10 @@ describe "Authentication" do
     end
 
     it { should have_title(student.first_name) }
-    #Needs to be implemented to pass 
-    #it { should have_link('Profile',     href: student_path(student)) }
+    #profile_link in your _header.html.erb
+    it { should have_link('Profile',     href: student_path(student)) }
+    #edit_link in your _header.html.erb
+    it { should have_link('Settings',    href: edit_student_path(student)) }
     it { should have_link('Sign Off',    href: signoff_path) }
     it { should_not have_link('Sign On', href: signon_path) }
 
