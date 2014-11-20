@@ -1,7 +1,11 @@
 require 'spec_helper'
 
 #student models
+<<<<<<< HEAD
 #change on branch trying again
+=======
+# Added more and more comments To Make sure my commit is working.
+>>>>>>> comments_on_files
 describe Student do
   before { 
   	@student = Student.new(first_name: "Aron", last_name:"flockhart", 
