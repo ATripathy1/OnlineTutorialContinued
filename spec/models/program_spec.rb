@@ -2,6 +2,7 @@ require 'spec_helper'
 
 
 #Program Model
+# Will be adding more this model to make sure I understand how rspec and cucumber work
 describe Program do
   #Add a factory for programs
   let(:program) {FactoryGirl.create(:program)}
