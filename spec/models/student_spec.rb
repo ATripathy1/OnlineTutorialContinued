@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 #student models
+# Added more and more comments To Make sure my commit is working.
 describe Student do
   before { 
   	@student = Student.new(first_name: "Aron", last_name:"flockhart", 
