@@ -11,6 +11,7 @@ class StaticPagesController < ApplicationController
   def contact
   end
 
-  def programs
-  end
+  #This is no longer a statics page
+  #def programs
+  #end
 end

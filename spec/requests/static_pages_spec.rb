@@ -34,20 +34,14 @@ describe "StaticPages" do
 	it { should_not have_title(full_title('| Help')) }
 	end
 
-	describe "Programs" do
+	#describe "Programs" do
 		
-	before { visit programs_path }
+#	before { visit programs_path }
 
-	it { should have_content("All Programs") }
-	it { should_not have_title(full_title('| Programs')) }
-	end		
+#	it { should have_content("All Programs") }
+#	it { should_not have_title(full_title('| Programs')) }
+#	end		
 
 end
 
 
-require 'spec_helper'
-
-describe "Static pages" do
-
-  
-end

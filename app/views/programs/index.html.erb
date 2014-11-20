@@ -1,0 +1,11 @@
+<% provide(:title, 'Programs') %>
+<h1>All Programs</h1>
+<div class="row">
+  <div class="span6 offset3">
+  	<ul id="programs">
+  	<% @programs.each do |c| %>
+  		<li><%= c.program_name %> | <%= c.program_description %></li>
+  	<%end%>
+  	</ul>
+  </div>
+</div>

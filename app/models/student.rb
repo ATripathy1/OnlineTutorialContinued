@@ -11,7 +11,7 @@ class Student < ActiveRecord::Base
  	has_secure_password
  	validates :password, length: {minimum:6}
 
-
+ 	# checking to see if the file change here shows on the github windows for a commit
  	#For Sessions of Any Student...creation of tokens
 	def Student.new_remember_token
 		SecureRandom.urlsafe_base64
