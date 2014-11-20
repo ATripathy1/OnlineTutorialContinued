@@ -1,6 +1,4 @@
 require 'spec_helper'
-
-
 #Program Model
 describe Program do
   #Add a factory for programs
