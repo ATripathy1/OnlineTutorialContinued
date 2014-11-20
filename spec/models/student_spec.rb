@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 #student models
+#change on branch
 describe Student do
   before { 
   	@student = Student.new(first_name: "Aron", last_name:"flockhart", 
